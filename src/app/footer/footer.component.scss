@@ -1,0 +1,55 @@
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #016d61;
+}
+
+#footer, #CV-download{
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer, p, a{
+  color: #FFFFFF;
+}
+
+#left_footer{
+  display: flex;
+  align-items: center;
+}
+
+#social-media-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+#CV-download p{
+  padding: 5px;
+}
+
+#footer img{
+  height: 40px;
+}
+
+#footer span{
+  color: #00ff00;
+}
+
+.footer_icon_text{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.footer_icon_text p{
+  margin-left: 8px;
+}
+
+
+
+
+
+
