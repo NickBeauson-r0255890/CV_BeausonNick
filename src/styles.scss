@@ -2,7 +2,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 *{
-  font-size: 15px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -11,6 +10,20 @@ body{
   background-color: #eeeeee;
 }
 
+p,a{
+  font-size: 15px;
+}
+
+a{
+  margin: 0;
+}
+
 .clickable{
   color: #53daed !important;
+  text-shadow: 0 1px #000000;
+}
+
+.clickable2{
+  color: #000000;
+  font-weight: bold;
 }
