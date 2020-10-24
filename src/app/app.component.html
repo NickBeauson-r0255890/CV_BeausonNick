@@ -1,5 +1,12 @@
-<app-header [title]=title></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
-
+<div id="Site">
+  <div id="Site-header">
+    <app-header [title]="'title' | constants"></app-header>
+  </div>
+  <div id="Site-content">
+    <router-outlet></router-outlet>
+  </div>
+  <div id="Site-footer">
+    <app-footer></app-footer>
+  </div>
+</div>
 

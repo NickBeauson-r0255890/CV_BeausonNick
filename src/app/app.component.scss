@@ -1,1 +1,16 @@
+#Site{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#Site-content{
+  flex: 1;
+  overflow: scroll;
+}
+
+#Site-footer{
+  flex: 0;
+}
+
 

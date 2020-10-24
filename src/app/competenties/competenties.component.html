@@ -1,1 +1,44 @@
-<h2 class="m-4">Competenties</h2>
+<div class="container">
+  <h2 class="mt-2 mt-md-4 mb-md-4">Competenties</h2>
+  <h4>Goed niveau</h4>
+  <ul class="competenties_list">
+    <li>
+      <p class="clickable2" (click)="toggleDetailsOf('angular')">Angular</p>
+      <div *ngIf="showAngularDetails">
+        <p>{{'angular_spring_boot' | constants}}</p>
+      </div>
+      <p>CSS</p>
+      <p>HTML5</p>
+      <p class="clickable2" (click)="toggleDetailsOf('java')">Java</p>
+      <div *ngIf="showJavaDetails">
+        <p>{{'java' | constants}}</p>
+      </div>
+    </li>
+  </ul>
+  <h4>Redelijk wat ervaring</h4>
+  <ul class="competenties_list">
+    <li>
+      <p>Javascript</p>
+      <p>JQuery</p>
+      <p>PostgreSQL</p>
+      <p class="clickable2" (click)="toggleDetailsOf('spring_boot')">Spring boot</p>
+      <div *ngIf="showSpringBootDetails">
+        <p>{{'angular_spring_boot' | constants}}</p>
+      </div>
+    </li>
+  </ul>
+  <h4 class="clickable2" (click)="toggleDetailsOf('basiskennis')">Basiskennis</h4>
+  <div *ngIf="showBasiskennisDetails">
+    <p>{{'basiskennis' | constants}}</p>
+  </div>
+  <ul class="competenties_list">
+    <li>
+      <p>Blender</p>
+      <p>C#</p>
+      <p>C++</p>
+      <p>Elixir</p>
+      <p>Photoshop</p>
+      <p>Python</p>
+    </li>
+  </ul>
+</div>

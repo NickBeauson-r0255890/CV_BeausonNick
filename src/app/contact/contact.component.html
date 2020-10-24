@@ -1,10 +1,36 @@
-<h2 class="m-4">Contact</h2>
 <div class="container">
-  <p>Beauson Nick</p>
-  <p>Leuven</p>
-  <p>+32 475 35 68 39</p>
-  <p><a href="mailto:beausonnick@hotmail.com" class="clickable2">beausonnick@hotmail.com</a></p>
-  <p><a href="https://www.linkedin.com/in/nick-beauson-8807b115a" target="_blank"
-     class="clickable2">LinkedIn</a></p>
-  <p><a class="clickable2" href="/assets/resources/Beauson-Nick-dutch.pdf" target="_blank">CV</a></p>
+  <h2 class="mt-2 mt-md-4 mb-md-4">Contact</h2>
+  <div class="container">
+    <span class="badge badge-info">Naam:</span>
+    <p class="p-1">Beauson Nick</p>
+
+    <span class="badge badge-info">Locatie:</span>
+    <p class="p-1">Leuven</p>
+
+    <span class="badge badge-info">Telefoon:</span>
+    <p class="p-1">+32 475 35 68 39 <img class="contact-img ml-1 d-inline" (click)="copyToClipboard('+32475356839')"
+                             src="assets/images/iconfinder_clipboard.png"/></p>
+
+    <div>
+      <span class="badge badge-info">E-mail:</span>
+      <p class="p-1">
+        <a href="mailto:beausonnick@hotmail.com" class="clickable2">beausonnick@hotmail.com</a>
+        <img class="contact-img ml-1 " (click)="copyToClipboard('beausonnick@hotmail.com')"
+             src="assets/images/iconfinder_clipboard.png"/>
+      </p>
+    </div>
+
+    <div>
+      <span class="badge badge-info">LinkedIn:</span>
+      <p class="p-1"><a href="https://www.linkedin.com/in/nick-beauson-8807b115a" target="_blank"
+            class="clickable2">Nick-Beauson</a></p>
+    </div>
+  </div>
+
+  <h4 class="mt-md-4 mb-md-4">CV</h4>
+  <div class="container pl-4 pr-4">
+    <p><a class="clickable2" href="assets/resources/Beauson-Nick_CV_dutch.pdf" target="_blank">Nederlands</a></p>
+    <p><a class="clickable2" href="assets/resources/Beauson-Nick_CV_english.pdf" target="_blank">English</a></p>
+  </div>
 </div>
+

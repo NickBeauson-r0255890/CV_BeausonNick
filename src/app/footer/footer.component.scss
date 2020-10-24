@@ -1,14 +1,21 @@
 
+
+
 #footer{
-  /*
-  padding: 10px;*/
-  position: fixed;
-  bottom: 0;
+  //padding: 10px;
+  //position: sticky;
+  //bottom: 0;
   width: 100%;
   color: #FFFFFF;
   background-color: #016d61;
 }
 /*
+@media (min-width: 768px) {
+  #footer{
+    position: fixed;
+  }
+}
+
 #footer, #CV-download{
   display: flex;
   justify-content: space-around;

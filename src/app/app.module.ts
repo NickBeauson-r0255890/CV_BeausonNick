@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { CompetentiesComponent } from './competenties/competenties.component';
 import { HeaderComponent } from './header/header.component';
+import {ConstantsPipe} from './constants.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     HomeComponent,
     FooterComponent,
     CompetentiesComponent,
-    HeaderComponent
+    HeaderComponent,
+    ConstantsPipe
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,26 @@
 
 body{
   margin: 0;
+  padding: 0;
   background-color: #eeeeee;
+}
+
+@keyframes down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2{
+  animation-name: down;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  visibility: visible;
 }
 
 p,a{
@@ -18,12 +37,22 @@ a{
   margin: 0;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .clickable{
   color: #53daed !important;
   text-shadow: 0 1px #000000;
+  cursor: pointer;
 }
 
 .clickable2{
   color: #000000;
-  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clickable2:hover{
+  background-color: #dddddd;
 }

@@ -6,6 +6,5 @@ import {Component, HostListener, OnInit} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent{
-  title = 'Beauson Nick';
 
 }
